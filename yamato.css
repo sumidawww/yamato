@@ -7,14 +7,14 @@ body {
   background-color: #f1eee7;
 }*/
 
-    body {
-      background-color:#FFFFe0;
-      background:url("./img/bg.jpg")  repeat scroll center center transparent;
-          font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
-      padding-bottom: 40px;
-      color: #9f8072;
-        font-size: 13px;
-    }
+body {
+  background-color:#FFFFe0;
+  background:url("./img/bg.jpg")  repeat scroll center center transparent;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+  padding-bottom: 40px;
+  color: #9f8072;
+  font-size: 13px;
+}
     
 a {
   color: #0088cc;
@@ -224,13 +224,6 @@ input[type="color"],
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'ffffff, endColorstr='#'fffefa, GradientType=0) !important;
 }
 
-.navbar .brand {
-  margin-left:1px;
-  padding: 10px 17px;
-  font-size: 20px;
-  color: #957367;
-}
-
 .navbar .divider-vertical {
   height: 41px;
   background-color: #ffffff;
@@ -278,3 +271,30 @@ input[type="color"],
    background-color: #3a87ad;
 }
 
+
+/*newly added*/
+
+.navbar-wrapper {
+  margin-top: 0 !important;
+}
+
+.navbar .btn-navbar {
+  margin-right: 20px !important;
+  margin-top: 7px !important;
+}
+
+/*.nav-collapse .nav {
+    margin: 0 10px 10px !important;
+}*/
+
+.navbar-inner {
+  /* smart phone 対策*/
+  margin:  auto;
+/*  padding:auto;*/
+}
+
+.navbar .brand {
+  padding: 12px 20px 7px; /* Increase vertical padding to match navbar links */
+  font-size: 16px;
+  color: #957367;
+}
