@@ -283,9 +283,9 @@ input[type="color"],
   margin-top: 7px !important;
 }
 
-/*.nav-collapse .nav {
-    margin: 0 10px 10px !important;
-}*/
+.nav-collapse .nav {
+    margin: 0 10px 0px !important;
+}
 
 .navbar-inner {
   /* smart phone 対策*/
@@ -297,4 +297,18 @@ input[type="color"],
   padding: 12px 20px 7px; /* Increase vertical padding to match navbar links */
   font-size: 16px;
   color: #957367;
+}
+
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: #957367;
+    color: #957367;
+    
+      
+        background:url("https://petite-jete.s3-ap-northeast-1.amazonaws.com/img/hdecorate_bg.png")  repeat scroll center center transparent;
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+    color: #5a2513;
+    box-shadow: 0 3px 8px #eed3d7 inset;
 }
