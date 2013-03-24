@@ -14,10 +14,10 @@ echo<<<EOD
     
     <link href="http://code.google.com/apis/maps/documentation/javascript/examples/standard.css" rel="stylesheet" type="text/css" /> 
     
-    <link href="./bootstrap_original.css" rel="stylesheet" type="text/css" /> 
-    <link href="./yamato.css" rel="stylesheet" type="text/css" />   
+    <link href="./css/bootstrap_original.css" rel="stylesheet" type="text/css" /> 
+    <link href="./css/yamato.css" rel="stylesheet" type="text/css" />   
     <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script> 
-    <script src="./google_map.js" type="text/javascript"></script> 
+    <script src="./js/google_map.js" type="text/javascript"></script> 
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
