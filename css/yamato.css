@@ -17,7 +17,7 @@ body {
     }
     
 a {
-  color: #0088cc;
+  color: #957367;
 } 
 
 p {
@@ -281,7 +281,7 @@ input[type="color"],
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-  height: 60px;
+  /*height: 60px;*/
 }
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
@@ -291,4 +291,26 @@ input[type="color"],
     padding-left: 20px;
     padding-right: 20px;
   }
+  
+   .tablepadding td{
+        padding: 18px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 18px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align  : top;
+    border-top: 1px solid #dddddd;
+  }
+  
+      .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 100px;
+    }
+    
 }
