@@ -3,6 +3,7 @@
 <html lang="ja">
   <?php include("./require/head.php");?>
   <body onload="initialize()">
+    <?php $active_list['qanda'] = 'active'; ?>
   <?php include("./require/navbar.php");?>
 
     <!-- Marketing messaging and featurettes

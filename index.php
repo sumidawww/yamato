@@ -3,8 +3,8 @@
 <html lang="ja">
   <?php include("./require/head.php");?>
   <body onload="initialize()">
+  <?php $active_list['home']='active'; ?>
   <?php include("./require/navbar.php");?>
-    
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -92,13 +92,11 @@ FAX:0742-44-3828</p>
 礼拝の内容と聖餐式は朝の主日礼拝に準じます。</p>
       </div>
 
-      <hr class="featurette-divider">
-
       <!-- /END THE FEATURETTES -->
 
 
       <?php include("./require/footer.php");?>
     </div><!-- /.container -->
-    <?php include("./require/navbar.php");?>
+    <?php include("./require/footer_js.php");?>
   </body>
 </html>
