@@ -10,31 +10,32 @@
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="./img/church1.jpg" alt="">
+          <img src="./img/church/img0002.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1></h1>
-              <p class="lead" style="text-shadow: 1px 1px 3px #000;">すべて重荷を負うて苦労している者は、<br>
+              <p class="lead" style="font-size:30px;text-shadow: 1px 1px 3px #000;">
+                すべて重荷を負うて苦労している者は、<br>
                 わたしのもとにきなさい。<br>
                 あなたがたを休ませてあげよう。</p>
-              <p style='text-align:right;text-shadow: 1px 1px 3px #000'>マタイによる福音書 11：28</p>
+              <p style='font-size:18px;margin-left:200px;text-shadow: 1px 1px 3px #000'>マタイによる福音書 11：28</p>
 
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="./img/church2.jpg" alt="">
+          <img src="./img/church/img0006.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>招きのことば</h1>
-              <p class="lead" style="font-size:20px;text-shadow: 1px 1px 3px #000;">
+              <h1></h1>
+              <p class="lead" style="font-size:21px;text-shadow: 1px 1px 3px #000;">
 あなたは知らないのか、聞いたことはないのか。<br>
 主は、とこしえにいます神<br>
 地の果てに及ぶ　全てのものの造り主。<br>
 倦むことなく、疲れることなく　その英知は究めがたい。<br>
 疲れた者に　力を与え<br>
 勢いを失っている者に大きな力を与える。</p>
-<p style='text-align:right;text-shadow: 1px 1px 3px #000'>イザヤ書 第４０章２８～２９節</p>
+<p style='font-size:18px;margin-left:200px;text-shadow: 1px 1px 3px #000'>イザヤ書 第４０章２８～２９節</p>
 
             </div>
           </div>
@@ -48,13 +49,21 @@
     <div class="container marketing">
       <div class="featurette_no_margin_top">        
         <h2 class="featurette-heading">大和キリスト教会の所在地</h2>
+        <table>
+          <tr>
+            <td>
         <p class="lead">
 〒631-0016 奈良市学園朝日町5番15号（駐車場あり）<br>
 TEL:0742-45-0523<br>
 FAX:0742-44-3828</p>
-        <div style="padding:10px;border: 1px solid #E8E8E8;text-align:center;">
-          <div id="map_canvas" style=" height: 297px;"></div> 
-        </div>  
+            </td>
+            <td>
+        <a href="https://maps.google.co.jp/maps?hl=ja&q=%E5%A5%88%E8%89%AF%E5%B8%82%E5%AD%A6%E5%9C%92%E6%9C%9D%E6%97%A5%E7%94%BA5%E7%95%AA15%E5%8F%B7&ie=UTF-8&hq=&hnear=0x60013cad3c051bff:0x3804d61128c84eea,%E5%A5%88%E8%89%AF%E7%9C%8C%E5%A5%88%E8%89%AF%E5%B8%82%E5%AD%A6%E5%9C%92%E6%9C%9D%E6%97%A5%E7%94%BA%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%95&gl=jp&ei=l-dfUaCXNeetiQeZzoGQBw&ved=0CG4QtgM">
+           <img src="./img/tizu_new.gif"><br>
+           <div style="text-align:right;">Google Mapで確認するにはこちら</div>
+        </a>
+            </td>
+        </table>
       </div>
                   
     <!-- Marketing messaging and featurettes
@@ -68,7 +77,7 @@ FAX:0742-44-3828</p>
       <hr class="featurette-divider">
 
       <div class="featurette_no_margin_top">
-        <img class="featurette-image pull-right" src="http://homepage3.nifty.com/yamato_cc/phot/sanctuary/pic00020.jpg">
+        <img class="featurette-image pull-right" src="./img/church/img0003.jpg">
         <h2 class="featurette-heading">主日礼拝<br> <span class="muted">Lord's Day worship</span></h2>
         <p class="lead">
 毎週日曜日 午前１０時２５分～１２時<br>
@@ -95,8 +104,9 @@ FAX:0742-44-3828</p>
       <!-- /END THE FEATURETTES -->
 
 
-      <?php include("./require/footer.php");?>
+
     </div><!-- /.container -->
+          <?php include("./require/footer.php");?>
     <?php include("./require/footer_js.php");?>
   </body>
 </html>
