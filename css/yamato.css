@@ -13,7 +13,7 @@ body {
       font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic','sans-serif';
       padding-bottom: 40px;
       color: #9f8072;
-        font-size: 13px;
+      font-size: 15px;
     }
     
 a {
@@ -239,7 +239,7 @@ input[type="color"],
 
 .navbar .nav > li > a {
   padding: 10px 10px 11px;
-  font-size: 14px;
+  font-size: 16px;
   color: #7a4f3f;
 }
 
