@@ -2,11 +2,16 @@
 $str=<<<EOD
 <table class="table-striped table-bordered">
   <tr>
+    <td colspan=3>
+    2013年
+    </td>
+  </tr>
+  <tr>
     <td rowspan=3>
      4月
      </td>
      <td>
-     ７日（日）
+     7日（日）
     </td>
     <td>
     主日聖餐礼拝、長老按手・任職式、長老会
@@ -14,7 +19,7 @@ $str=<<<EOD
   </tr>
   <tr>
     <td>
-     １０日（水）
+     10日（水）
     </td>
     <td>
     こばと新学期開始
@@ -22,7 +27,7 @@ $str=<<<EOD
   </tr>
   <tr>
     <td>
-     ２８日（日）
+     28日（日）
     </td>
     <td>
     定期教会総会
@@ -33,146 +38,182 @@ $str=<<<EOD
 EOD;
 
 $schedule_data=<<<EOD
-４月
-７日（日）
+4月
+&nbsp;&nbsp;7日(日)
 主日聖餐礼拝、長老按手・任職式、長老会
-１０日（水）
+10日(水)
 こばと新学期開始
-２８日（日）
+28日(日)
 定期教会総会
 
-５月
-３日（金）～４日（土）
-大阪教区総会（於：大阪女学院）
-５日（日）
+5月
+&nbsp;&nbsp;3日(金)～4日(土)
+大阪教区総会(於:大阪女学院)
+&nbsp;&nbsp;5日(日)
 主日聖餐礼拝、長老会
-９日（木）
+&nbsp;&nbsp;9日(木)
 昇天日
-１２日（日）
-母の日、森祐理コンサート（１３時３０分会場　　１４時開始）
-１９日（日）
-聖霊降臨日、創立５４周年記念主日聖餐礼拝、二大礼典執行、愛餐会
-２７日（月）
-教会連合関西部会総会（於：茨城東教会）
+12日(日)
+母の日、森祐理コンサート<br>(13時30分会場　14時開始)
+19日(日)
+聖霊降臨日、創立54周年記念主日聖餐礼拝、二大礼典執行、愛餐会
+27日(月)
+教会連合関西部会総会(於:茨城東教会)
 
-６月
-２日（日）
+6月
+&nbsp;&nbsp;2日(日)
 主日聖餐礼拝、長老会
-９日（日）
+&nbsp;&nbsp;9日(日)
 花の日・子どもの日
-１６日（日）
+16日(日)
 父の日
-２３日（日）
-主日礼拝説教：岡村恒牧師（大阪教会との交換講壇日）
-２４日（月）
-東京神学大学主催　「講演と音楽の夕べ」　（於：大阪教会）
+24日(月)
+東京神学大学主催<br>「講演と音楽の夕べ」　(於:大阪教会)
 
-７月
-７日（日）
+7月
+&nbsp;&nbsp;7日(日)
 主日聖餐礼拝、長老会
-１４日（日）
-主日礼拝説教：近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー①」（１４時～１５時３０分）
+14日(日)
+主日礼拝説教:近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー①」(14時～15時30分)
 日程調整中
-夏季学校（アメリカ・サラン教会青年伝道チームを迎えて）
+夏季学校(アメリカ・サラン教会青年伝道チームを迎えて)
 
-８月
-４日（日）
+8月
+&nbsp;&nbsp;4日(日)
 主日聖餐礼拝
-２５日（日）
-主日礼拝説教：岡村恒牧師（大阪教会との交換講壇日）
 
-９月
-１日（日）
+9月
+&nbsp;&nbsp;1日(日)
 主日聖餐礼拝、長老会
-８日（日）
-主日礼拝説教：近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー②」（１４時～１５時３０分）
-１５日（日）
-長寿者祝福式、大阪女学院ハンドベル奉仕（予定）
-１６日（月）～１７日（火）
-教会連合関西部会　教職・役員研修会（於：パナソニック・リゾート大阪）
-２９日（日）
+&nbsp;&nbsp;8日(日)
+主日礼拝説教:近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー②」(14時～15時30分)
+15日(日)
+長寿者祝福式、大阪女学院ハンドベル奉仕(予定)
+16日(月)～17日(火)
+教会連合関西部会　教職・役員研修会(於:パナソニック・リゾート大阪)
+29日(日)
 教会大掃除
 
-１０月
-６日（日）
+10月
+&nbsp;&nbsp;6日(日)
 世界聖餐日、主日聖餐礼拝、長老会
-１３日（日）
+13日(日)
 神学校日・伝道献身者奨励日、神学校日神学講座
-１３日（日）～１４日（月）
+13日(日)～14日(月)
 第７回青年交流キャンプ
-３１日（木）
+31日(木)
 宗教改革記念日
 
-１１月
-３日（日）
+11月
+&nbsp;&nbsp;3日(日)
 逝去者記念主日聖餐礼拝、墓前礼拝、長老会
-日程調整中
-教会バザー
-１０日（日）
-主日礼拝説教：近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー③」（１４時～１５時３０分）
-２４日（日）
+10日(日)
+主日礼拝説教:近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー③」(14時～15時30分)
+24日(日)
 収穫感謝礼拝
-２８日（木）
+28日(木)
 収穫感謝祭
-３０日（日）
+30日(日)
 アドベントクランツ作り
 
-１２月
-１日（日）～２４日（日）
-待降（アドベント）
-１日（日）
+12月
+&nbsp;&nbsp;1日(日)～24日(日)
+待降(アドベント)
+&nbsp;&nbsp;1日(日)
 待降節第一主日聖餐礼拝、長老会
-２２日（日）
+22日(日)
 降誕祭主日聖餐礼拝、二大礼典執行、愛餐会
-２５日（水）
+25日(水)
 降誕日
 
-１月
-１日（水）
+1月
+&nbsp;&nbsp;1日(水)
 新年礼拝
-５日（日）
+&nbsp;&nbsp;5日(日)
 主日聖餐礼拝、長老会
-１２日（日）
-主日礼拝説教：近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー④」（１４時～１５時３０分）
-２６日（日）
-臨時教会総会
+12日(日)
+主日礼拝説教:近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー④」(14時～15時30分)
+26日(日)
+教会総会
 
-２月
-２日（日）
+2月
+&nbsp;&nbsp;2日(日)
 主日聖餐礼拝、長老会
-４日（火）
-教会連合関西部会　教会学校教師養成講座①（於：大阪教会）
-１１日（火）
-教会連合関西部会　教職・信徒研修会（於：大和キリスト教会）
-１８日（火）
-教会連合関西部会　教会学校教師養成講座②（於：大阪教会）
-２３日（日）
-主日礼拝説教：岡村恒牧師（大阪教会との交換講壇日）
-２５日（火）
-教会連合関西部会　教会学校教師養成講座③（於：大阪教会）
+&nbsp;&nbsp;4日(火)
+教会連合関西部会　教会学校教師養成講座①(於:大阪教会)
+11日(火)
+教会連合関西部会　教職・信徒研修会(於:大和キリスト教会)
+18日(火)
+教会連合関西部会　教会学校教師養成講座②(於:大阪教会)
+25日(火)
+教会連合関西部会　教会学校教師養成講座③(於:大阪教会)
 
-３月
-２日（日）
+3月
+&nbsp;&nbsp;2日(日)
 主日聖餐礼拝、長老会
-３月５日（水）～<br>４月１９日（土）
-受難節（レント）
-９日（日）
-主日礼拝説教：近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー⑤」（１４時～１５時３０分）
-３０日
+&nbsp;&nbsp;5日(水)～<br>4月19日(土)
+受難節(レント)
+&nbsp;&nbsp;9日(日)
+主日礼拝説教:近藤勝彦牧師<br>近藤勝彦牧師による「信徒神学セミナー⑤」(14時～15時30分)
+30日
 教会大掃除
 
 
 EOD;
 
+$img_exist_by_month=array('1'=>true,'11'=>true,'12'=>true,'3'=>true,4=>true,'7'=>true);
 $tr_count=0;
 $exploded_shcedule_datas=explode("\n",$schedule_data);
 foreach($exploded_shcedule_datas as $exploded_shcedule_data){
   if(mb_strlen($exploded_shcedule_data)==1){
-    $schedule_table_str.=<<<EOD
-<tr>
-  <td style="background-color:white;" rowspan=$tr_count>$first_line </td>
+    $month=str_replace('月','',$first_line);
+    $month=mb_convert_kana($month, "n", "UTF-8");
+    $month=str_replace(' ','',$month);
+
+    if( $month ==4 )
+    {
+      $schedule_table_str.=<<<EOD
+      <tr>
+        <td  class="table-border-solid-white-5" colspan=4 style="padding-left:18px;color:#fff;font-size:25px;font-weight:bold;background-color:#ED876E;">
+        2013年
+        </td>
+      </tr>
 EOD;
-    $schedule_table_str.=join("\n",$lines);   
+    }
+    
+    if( $month ==1 )
+    {
+      $schedule_table_str.=<<<EOD
+      <tr>
+        <td class="table-border-solid-white-5"  colspan=4 style="padding-left:18px;color:#fff;font-size:25px;font-weight:bold;background-color:#ED876E;">
+        2014年
+        </td>
+      </tr>
+EOD;
+    }
+    $schedule_table_str.=<<<EOD
+
+
+  <tr>
+   <td class="table-border-solid-white-5" style="background-color:#F7DFA0;color:#ED876E;font-size:25px;font-weight:bold;white-space: nowrap;text-align:center;" rowspan=$tr_count>$first_line</td>
+
+EOD;
+    $num=0;
+    foreach($lines as $line){
+      $schedule_table_str.=$line;   
+      if($num==1){
+        $img_tag="";
+          $img_tag="<img src='./img/schedule/sche-$month.jpg'>";
+        
+        $schedule_table_str.=<<<EOD
+   <td class="table-border-solid-white-5" style="background-color:#f9f9f9;text-align:center;vertical-align:middle;" rowspan=$tr_count>$img_tag</td>
+  </tr>
+EOD;
+      }elseif($num%2){
+        $schedule_table_str.="\n  </tr>";
+      }
+      $num++;
+    }
     $lines=array();
     $line_count=0;
     $tr_count=0;
@@ -183,12 +224,12 @@ EOD;
       $first_line=$exploded_shcedule_data;
       continue;
     }else{
-      $line="   <td>".$exploded_shcedule_data ."</td>";
+      $line="   <td class='table-border-solid-white-5' style='font-size:20px;'>".$exploded_shcedule_data ."</td>";
     }
     if($line_count==2){
       $line=$line;
     }elseif($line_count%2){
-      $line.="\n  </tr>";
+//      $line.="\n  </tr>";
       $tr_count++;
     }else{
       $line="\n  <tr>\n".$line;
@@ -197,7 +238,7 @@ EOD;
   }
 }
 echo<<<EOD
-<table class="table table-striped table-bordered">
+<table class="table table-striped table-border-solid-white-5">
 $schedule_table_str
 </table>
 EOD;

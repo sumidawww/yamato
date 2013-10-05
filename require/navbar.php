@@ -1,5 +1,24 @@
 <?php
+$part_list=array(
+    'home',
+    'church', 'church_history', 
+    'teacher',
+    'worship',
+    'school',
+    'kobato',
+    'meeting',
+    'schedule',
+    'qanda',
+    'construction'
+    );
+
+foreach($part_list as $key){
+  if($active_list[$key] != 'active'){
+    $active_list[$key]='disactive';
+  }
+}
 echo<<<EOD
+<a id="top"></a>
     <div class="navbar-wrapper">
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
 
@@ -12,45 +31,37 @@ echo<<<EOD
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="./index.php">日本基督教団 大和キリスト教会 </a>
+            <span class="brand">日本基督教団 大和キリスト教会 </span>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse">
-              <ul class="nav">
-                <li class="{$active_list['home']}"><a href="./index.php">ホーム</a></li>
-                <li class="{$active_list['church']} dropdown">
-                  <a href="contents.php" class="dropdown-toggle" data-toggle="dropdown">大和キリスト教会<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="contents.php">私たちの教団(日本基督教団)</a></li>
-                    <li><a href="contents.php">私たちの信仰(信仰告白)</a></li>
-                    <li><a href="contents.php">私たちの歩み</a></li>
-                  </ul>
-                </li>
-                <li class ="{$active_list['teacher']}"><a href="contents.php?part=teacher">教師のご案内</a></li>
-                <li class="{$active_list['worship']} dropdown">
-                  <a href="contents.php" class="dropdown-toggle" data-toggle="dropdown">礼拝のご案内<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="contents.php">主日礼拝</a></li>
-                    <li><a href="contents.php">夕礼拝</a></li>
-                  </ul>
-                </li>             
-                <li class="{$active_list['school']} dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">教会学校のご案内<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="contents.php?part=school">こばと</a></li>
-                    <li><a href="contents.php?part=school">小学科</a></li>
-                    <li><a href="contents.php?part=school">中高科</a></li>
-                    <li><a href="contents.php?part=school">成人科</a></li>
-                  </ul>
-                </li>        
+              <ul class="nav da-thumbs">
+                <li class="{$active_list['home']}"><a href="index.html">ホーム</a></li>
+                <li class="{$active_list['church']}"><a href="church.html">大和キリスト教会</a></li>
+                <li class ="{$active_list['teacher']}"><a href="teacher.html">教師のご案内</a></li>
+                <li class="{$active_list['worship']}">
+                  <a href="worship.html">礼拝のご案内</a></li>         
+                <li class="{$active_list['school']}">
+                  <a href="school.html">教会学校のご案内</a></li>  
+                <li class="{$active_list['kobato']}">
+                  <a href="kobato.html">こばと</a></li>  
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="{$active_list['meeting']}">
-                  <a href="contents.php?part=meeting">集会のご案内</a>
+                  <a href="meeting.html">集会のご案内</a>
                 </li>
-                <li class="{$active_list['schedule']}"><a href="contents.php?part=schedule">年間行事予定</a></li>
-                <li class="{$active_list['qanda']}"><a href="contents.php?part=qanda">Q&A</a></li>
+                <li class="{$active_list['schedule']}"><a href="schedule.html">年間行事予定</a></li>
+                <li class="{$active_list['qanda']}"><a href="qanda.html">Q&A</a></li>
+                <li class="{$active_list['event']} dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown">イベント<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="construction.html">予告</a></li>
+                    <li class="divider"></li>
+                    <li><a href="achievement.html">記録</a></li>
+                  </ul>
+                </li>                  
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
+          <div class="gradientBar"></div>
         </div><!-- /.navbar -->
 
       </div> <!-- /.container -->

@@ -4,19 +4,20 @@ echo<<<EOD
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-alert.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-modal.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-button.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js"></script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-typeahead.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/transition.js"></script>
+    <script src="./js/alert.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/scrollspy.js"></script>
+    <script src="./js/tab.js"></script>
+    <script src="./js/tooltip.js"></script>
+    <script src="./js/popover.js"></script>
+    <script src="./js/button.js"></script>
+    <script src="./js/collapse.js"></script>
+    <script src="./js/carousel.js"></script>
+    <!--<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-typeahead.js"></script>-->
+
     <script>
       !function ($) {
         $(function(){
@@ -25,6 +26,6 @@ echo<<<EOD
         })
       }(window.jQuery)
     </script>
-    <script src="http://twitter.github.com/bootstrap/assets/js/holder/holder.js"></script>
+    <script src="./js/holder.js"></script>
 EOD;
 ?>
