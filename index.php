@@ -15,13 +15,13 @@
   あなたがたを休ませてあげよう。</p>
       <p style='font-size:18px;margin-left:200px;'>マタイによる福音書 11:28</p> 
     </div>
-  </div>  
+  </div>
     <div class="container marketing">
             
       <div class="featurette_no_margin_top">        
         
         <h2 class="featurette-heading left-border" style="margin-top:80px;margin-bottom:15px;">主日礼拝</h2>
-<table class="table radius table-borderless lead" style="padding:4px;margin-top:50px;margin-bottom:15px;"">
+<table class="table radius table-borderless lead" style="padding:4px;margin-top:50px;margin-bottom:15px;">
   <tr>
     <td style="padding:0;margin:0">
         <table class="lead .line-height-30" style="padding:0;margin:0">
@@ -55,7 +55,7 @@
             聖餐式
           </td>
           <td style="vertical-align:top;">
-           毎月第一主日の礼拝の中で行います。<br>
+           毎月第一日曜日の礼拝の中で行います。<br>
 （他にイースター、ペンテコステ、クリスマスの各主日にも行います）
           </td>
         </tr>
@@ -64,7 +64,7 @@
             <br>
             <span class="left-border border-color-skyblue" style="font-weight: bold;">夕礼拝のご案内</span><br>
             <br>
-      　毎主日の午後7時～約1時間<br>
+      　毎日曜日の午後7時～約1時間<br>
       　（於 小礼拝堂）<br>
       <br>
       　礼拝の内容と聖餐式は朝の主日礼拝に準じます。
@@ -94,7 +94,7 @@
               <img  style="margin-left:20px;" class="width400 pull-right" src="./img/tizu_new.gif"><br>
                 <div style="text-align:right;clear:both;">              
                   <a href="https://maps.google.co.jp/maps?hl=ja&q=%E5%A5%88%E8%89%AF%E5%B8%82%E5%AD%A6%E5%9C%92%E6%9C%9D%E6%97%A5%E7%94%BA5%E7%95%AA15%E5%8F%B7&ie=UTF-8&hq=&hnear=0x60013cad3c051bff:0x3804d61128c84eea,%E5%A5%88%E8%89%AF%E7%9C%8C%E5%A5%88%E8%89%AF%E5%B8%82%E5%AD%A6%E5%9C%92%E6%9C%9D%E6%97%A5%E7%94%BA%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%95&gl=jp&ei=l-dfUaCXNeetiQeZzoGQBw&ved=0CG4QtgM">
-                    <i class="icon-globe"></i> Google Mapで確認するにはこちら
+                    Google Mapで確認するにはこちら
                   </a>
                 </div>
 
@@ -106,8 +106,9 @@
 〒 631-0016<br>
 　 奈良市学園朝日町5番15号<br>
 　 　（駐車場あり）<br>
-<i class="icon-phone"></i> TEL : 0742-45-0523<br>
-<i class="icon-print"></i> FAX : 0742-44-3828
+TEL : 0742-45-0523<br>
+FAX : 0742-44-3828<br>
+最寄駅：学園前駅（北口） 徒歩10分程度
         </p>
         </div>
             </td>

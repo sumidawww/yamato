@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+
+RewriteRule gallery\/(.*)\.html$ gallery/$1.php
+RewriteRule index\.html$ index.php
+RewriteRule (.*)\.html$ contents.php?part=$1

@@ -44,7 +44,7 @@ $str=<<<EOD
   </div>  
   <div class="margin-left-20 left-border border-color-peterriver font-25 kobato-title">分級</div>
   <div class="margin-left-40">
-礼拝後の時間に学年ごとに各クラスに分かれて、聖書の学びや、制作活動などをします。<br>
+礼拝後の時間に学年ごとに各クラスに分かれて（幼児科 3～6歳、小学科 7～12歳、中高科 13～18歳、成人科 18歳～）、聖書の学びや、制作活動などをします。<br>
 また成人科では、牧師や伝道師によるキリスト教についての基礎的な学びや疑問にお答えする時間を持ちます。<br>
   </div>
   <div class="margin-left-20 left-border border-color-turquois font-25 kobato-title">季節ごとに</div>
