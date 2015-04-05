@@ -53,9 +53,9 @@ echo<<<EOD
                 <li class="{$active_list['event']} dropdown">
                   <a href="" class="dropdown-toggle" data-toggle="dropdown">イベント<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="announcement.html">予告 (10/21更新)</a></li>
+                    <li><a href="announcement.html">予告</a></li>
                     <li class="divider"></li>
-                    <li><a href="achievement.html">記録(1/11更新)</a></li>
+                    <li><a href="achievement.html">記録</a></li>
                   </ul>
                 </li>                  
               </ul>

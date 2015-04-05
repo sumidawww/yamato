@@ -12,15 +12,6 @@ $str=<<<EOD
  </p>
 </div>
 <div class="lead">
-  <div class="left-border border-color-flat-red font-30-bold kobato-title">2014年度　募集について</div>
-  <div class="margin-left-20">
-  2歳児　募集　7組</br>
-  3歳児　募集　5組</br>
-  　11/3（日）より募集要項を配布します。</br>
-  </br>
-  申し込み開始　12/17（火）</br>
-  　応募多数の場合は抽選
-  </div>
   <div class="left-border border-color-flat-retroblue font-30-bold kobato-title">活動内容</div>
   <div class="left-border border-color-alizarin font-25 kobato-title">1.　教育理念</div>
   <div class="margin-left-20">

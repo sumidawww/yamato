@@ -176,10 +176,13 @@ EOD;
     $lines[]=$line;
   }
 }
+echo "更新中です";
+/*
 echo<<<EOD
 <table class="table table-striped table-border-solid-white-5">
 $schedule_table_str
 </table>
 EOD;
+*/
 //echo str_replace(array("\r\n","\r","\n"), "<br>\n", $str);
 ?>
